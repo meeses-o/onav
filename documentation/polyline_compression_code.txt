@@ -1,0 +1,18 @@
+All lines/tracked activities begin with a shabang:
+"#!"
+
+Each new entry is denoted with another !. 
+
+After the shabang, 
+@: lat
+$: lng
+%: alt
+&: speed
+
+All numbers are in base 36
+
+ lat and lng are being multiplied by 10^5, and with 5 decimal places
+
+alt is being stored as-is, 0 decimal places
+
+speed is being stored *10^2 with 2 decimal places
